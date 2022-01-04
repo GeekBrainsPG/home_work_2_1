@@ -1,4 +1,5 @@
 interface Species {
-    public void run();
-    public void jump();
+    public void run(int distance);
+    public void jump(int height);
+    public boolean isAllDistancePassed();
 }
